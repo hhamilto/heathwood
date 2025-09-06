@@ -25,7 +25,7 @@
       <img src="heathwood.png" alt="Exterior view of Dr. Heathwood's clinic" />
       <h1>Dr. Heathwood</h1>
       <p>Compassionate Family Physician</p>
-      <a class="cta" href="mailto:info@drheathwood.example.com">Book an Appointment</a>
+      <a class="cta" href="mailto:earlyaccess@drheathwood.example.com">Sign Up for Early Access</a>
     </header>
     <section>
       <h2>About</h2>
@@ -33,5 +33,11 @@
         Dr. Heathwood provides personalized, comprehensive care for patients of all ages.
       </p>
     </section>
+    <footer>
+      <small>&copy; <span id="year"></span> Dr. Heathwood</small>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
